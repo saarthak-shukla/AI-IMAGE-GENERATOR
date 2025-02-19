@@ -1,0 +1,53 @@
+.sign-in-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #4CAF50, #388E3C);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.sign-in-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.sign-in-input:focus {
+    border-color: #388E3C;
+    outline: none;
+    box-shadow: 0 0 5px rgba(72, 187, 72, 0.5);
+}
+
+
+
+
+.sign-in-button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #4CAF50, #388E3C);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sign-in-button:hover {
+    background: linear-gradient(90deg, #388E3C, #4CAF50);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}

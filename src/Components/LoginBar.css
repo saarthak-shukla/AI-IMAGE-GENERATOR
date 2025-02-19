@@ -1,0 +1,75 @@
+/* Centering the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #1E3A8A, #9333EA);
+  }
+  
+  /* Form Styling */
+  .login-form {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    width: 320px;
+    text-align: center;
+  }
+  
+  /* Title */
+  .login-title {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input Group */
+  .input-group {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Icon Styling */
+  .icon {
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  /* Input Fields */
+  input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    flex: 1;
+  }
+  
+  /* Placeholder */
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Login Button */
+  .login-button {
+    background: #22C55E;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+  }
+  
+  .login-button:hover {
+    background: #16A34A;
+  }
+  
